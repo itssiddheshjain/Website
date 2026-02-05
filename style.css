@@ -149,3 +149,78 @@ body {
     padding: 30px;
   }
 }
+/* CONTACT PAGE */
+.contact-page {
+  text-align: center;
+}
+
+.contact-page h2 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.contact-subtext {
+  margin-bottom: 40px;
+  color: #d1d5db;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+/* Animated button style (adapted) */
+.contact-btn {
+  text-decoration: none;
+  position: relative;
+}
+
+.contact-btn div {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.contact-btn:hover div {
+  transform: rotate(-35deg) skew(20deg);
+}
+
+.contact-btn span {
+  position: absolute;
+  inset: 0;
+  border: 1px solid #38bdf8;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.contact-btn span:nth-child(5) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.contact-btn:hover span:nth-child(5) {
+  transform: translate(20px, -20px);
+}
+.contact-btn:hover span:nth-child(4) {
+  transform: translate(15px, -15px);
+  opacity: 0.8;
+}
+.contact-btn:hover span:nth-child(3) {
+  transform: translate(10px, -10px);
+  opacity: 0.6;
+}
+.contact-btn:hover span:nth-child(2) {
+  transform: translate(5px, -5px);
+  opacity: 0.4;
+}
+.contact-btn:hover span:nth-child(1) {
+  opacity: 0.2;
+}
+
