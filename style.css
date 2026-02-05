@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  display: flex;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #e5e7eb;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 230px;
+  min-height: 100vh;
+  background: rgba(15, 23, 42, 0.9);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 30px 20px;
+  position: fixed;
+}
+
+.logo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #38bdf8;
+  margin-bottom: 40px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar nav a {
+  text-decoration: none;
+  color: #cbd5f5;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+  background: #38bdf8;
+  color: #020617;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 230px;
+  padding: 60px;
+  width: 100%;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 60px;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.home h1 span {
+  color: #38bdf8;
+}
+
+.home h3 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: #cbd5f5;
+}
+
+.home p {
+  max-width: 750px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #d1d5db;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 26px;
+  border-radius: 6px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.primary {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.primary:hover {
+  background: #0ea5e9;
+}
+
+.secondary {
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.secondary:hover {
+  background: #38bdf8;
+  color: #020617;
+}
+
+/* Glass sections */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass h2 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+.glass p {
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 30px;
+  }
+}
