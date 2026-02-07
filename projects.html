@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,8 +10,9 @@
 </head>
 <body>
 
+  <!-- Sidebar -->
   <aside class="sidebar">
-    <h2 class="logo">SID</h2>
+    <h2 class="logo"><span class=bolt><i class="fa fa-bolt"></i></span>SID</h2>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -19,20 +22,71 @@
     </nav>
   </aside>
 
+  <!-- Main Content -->
   <main class="main-content">
-    <section class="section glass">
-      <h2>Projects</h2>
-      <p>
-        Here I showcase my academic and personal projects, including
-        web applications, mini projects, and experiments.
-      </p>
+    <section class="section">
 
-      <p>
-        (Project cards coming soon 🚀)
-      </p>
+      <h1 class="page-title">Projects</h1>
+      <p class="page-subtitle">
+        A selection of academic and personal projects that reflect my
+        interest in web development, backend systems, and automation.
+      </p><br><br>
+
+      <!-- Project 1 -->
+      <div class="glass project-card">
+  <h2>Movie Ticket Booking Website</h2>
+  <p>
+    An interactive web application for browsing movies, viewing
+    showtimes, and booking tickets online. The focus was on
+    responsive design and a smooth user experience across devices.
+  </p>
+  <p class="tech">
+    <strong>Tech:</strong> HTML, CSS, JavaScript
+  </p>
+  <a href="https://github.com/yourusername/movie-ticket-booking"
+     target="_blank" class="project-link">
+     View on GitHub →
+  </a>
+</div><br><br>
+
+
+      <!-- Project 2 -->
+      <div class="glass project-card">
+  <h2>Telegram Bot – PixiPDF</h2>
+  <p>
+    A Telegram bot that converts PDF files into images and multiple
+    images into a single PDF. The bot was deployed with secure token
+    handling and cloud integration.
+  </p>
+  <p class="tech">
+    <strong>Tech:</strong> Python, Telegram Bot API, pdf2image, Pillow, Railway
+  </p>
+  <a href="https://github.com/yourusername/pixipdf-bot"
+     target="_blank" class="project-link">
+     View on GitHub →
+  </a>
+</div> <br><br>
+
+
+      <!-- Project 3 -->
+<div class="glass project-card">
+  <h2>College Placement Cell Management System</h2>
+  <p>
+    A web-based application where students can apply for job
+    openings and faculty can post opportunities. The project follows
+    the MVC architecture and implements complete CRUD operations.
+  </p>
+  <p class="tech">
+    <strong>Tech:</strong> Spring Boot, JSP, MySQL, MVC, CRUD
+  </p>
+  <a href="https://github.com/yourusername/placement-cell-system"
+     target="_blank" class="project-link">
+     View on GitHub →
+  </a>
+</div>
+
     </section>
   </main>
 
 </body>
 </html>
-
