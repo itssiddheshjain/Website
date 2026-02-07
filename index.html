@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Siddhesh Jain | Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -10,7 +12,7 @@
 
   <!-- Sidebar -->
   <aside class="sidebar">
-    <h2 class="logo">SID</h2>
+    <h2 class="logo"><span class=bolt><i class="fa fa-bolt"></i></span>SID</h2>
     <nav>
       <a href="index.html" class="active">Home</a>
       <a href="about.html">About</a>
@@ -22,24 +24,63 @@
 
   <!-- Main Content -->
   <main class="main-content">
-    <section class="section home">
-      <h1>Hi, I’m <span>Siddhesh Jain</span></h1>
-      <h3>BCA Student • Tech Enthusiast • Aspiring Developer</h3>
+    <section class="section home-section">
 
-      <p>
-        I’m a BCA student passionate about technology, software development,
-        and building clean, user-friendly web experiences.
-      </p>
+      <!-- HERO -->
+      <div class="home-hero">
+        <div class="hero-text">
+          <h1>Hi, I’m <span>Siddhesh Jain</span></h1>
+          <h3>BCA Student • Aspiring Developer • Tech Enthusiast</h3>
 
-      <p>
-        This website is my personal space where I share my projects, skills,
-        and learning journey as I grow in the IT field.
-      </p>
+          <p>
+            I enjoy learning by building things and understanding how they
+            work behind the scenes. I’m interested in web development,
+            backend systems, and security fundamentals.
+          </p>
 
-      <div class="buttons">
-        <a href="projects.html" class="btn primary">View Projects</a>
-        <a href="contact.html" class="btn secondary">Contact Me</a>
+          <div class="buttons">
+            <a href="projects.html" class="btn primary">View Projects</a>
+            <a href="contact.html" class="btn secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <!-- Profile Photo -->
+        <div class="hero-photo">
+          <img src="profile.jpg" alt="Siddhesh Jain">
+        </div>
       </div>
+
+      <!-- FOCUS AREAS -->
+      <div class="focus-grid">
+        <div class="glass focus-card">
+          <h4>Web Development</h4>
+          <p>Building clean, responsive, and user-friendly interfaces.</p>
+        </div>
+
+        <div class="glass focus-card">
+          <h4>Backend & Logic</h4>
+          <p>Working with Python, PHP, and databases to solve problems.</p>
+        </div>
+
+        <div class="glass focus-card">
+          <h4>Systems & Security</h4>
+          <p>Exploring Linux, networking basics, and security concepts.</p>
+        </div>
+      </div>
+
+      <!-- PROJECT TEASER -->
+      <div class="glass teaser-card">
+        <h2>Featured Project</h2>
+        <p>
+          <strong>Telegram Bot – PixiPDF</strong><br>
+          A Python-based Telegram bot that converts PDFs to images and
+          images back into a single PDF, deployed with cloud integration.
+        </p>
+        <a href="projects.html" class="project-link">
+          View all projects →
+        </a>
+      </div>
+
     </section>
   </main>
 
