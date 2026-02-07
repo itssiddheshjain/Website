@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,8 +10,9 @@
 </head>
 <body>
 
+  <!-- Sidebar -->
   <aside class="sidebar">
-    <h2 class="logo">SID</h2>
+    <h2 class="logo"><span class=bolt><i class="fa fa-bolt"></i></span>SID</h2>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html" class="active">About</a>
@@ -19,19 +22,56 @@
     </nav>
   </aside>
 
+  <!-- Main Content -->
   <main class="main-content">
-    <section class="section glass">
-      <h2>About Me</h2>
-      <p>
-        I am currently pursuing a Bachelor of Computer Applications (BCA).
-        I enjoy learning about web development, backend technologies,
-        and how real-world software systems work.
-      </p>
+    <section class="section glass about-section">
 
-      <p>
-        I believe in continuous learning and improving my skills through
-        hands-on projects and experimentation.
-      </p>
+      <div class="about-grid">
+
+        <!-- Profile Photo -->
+        <div class="about-photo">
+          <img src="profile.jpg" alt="Siddhesh Jain">
+        </div>
+
+        <!-- About Text -->
+        <div class="about-text">
+          <h1 class="page-title">About Me</h1>
+
+          <p>
+            I enjoy learning by building things and understanding how they
+            work behind the scenes.
+          </p>
+
+          <p>
+            I’m currently pursuing a Bachelor of Computer Applications (BCA)
+            and exploring web development, backend systems, and security
+            fundamentals. I like working on projects that involve logic,
+            clean design, and problem-solving.
+          </p>
+
+          <p>
+            Through hands-on projects, I’ve worked with Python, web
+            technologies, databases, and automation tools, and I’m
+            continuously improving by experimenting and building real
+            solutions.
+          </p>
+
+          <p class="quote">
+            “I believe simple, well-thought-out solutions matter more than
+            complicated ones.”
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Quick Facts -->
+      <div class="about-facts">
+        <div class="fact">🎓 BCA Student</div>
+        <div class="fact">💻 Web & Backend</div>
+        <div class="fact">🔐 Security Curious</div>
+        <div class="fact">📍 Indore, India</div>
+      </div>
+
     </section>
   </main>
 
