@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Siddhesh Jain | Skills</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <!-- Main CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Sidebar -->
   <aside class="sidebar">
-    <h2 class="logo">SID</h2>
+    <h2 class="logo"><span class=bolt><i class="fa fa-bolt"></i></span>SID</h2>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -19,16 +25,88 @@
     </nav>
   </aside>
 
+  <!-- Main Content -->
   <main class="main-content">
-    <section class="section glass">
-      <h2>Skills</h2>
-      <p>
-        HTML, CSS, JavaScript, Python, MySQL, PHP,
-        basic networking concepts, and problem-solving.
-      </p>
+    <section class="section">
+
+      <h1 class="page-title">Skills</h1>
+      <p class="page-subtitle">
+        A snapshot of the technologies and concepts I work with,
+        along with areas I’m currently exploring.
+      </p><br><br>
+
+      <div class="skills-grid">
+
+        <!-- Programming & Backend -->
+        <div class="glass skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h2>Programming & Backend</h2>
+          <p class="skill-list">Python • C (Basics) • PHP</p>
+          <p class="skill-desc">
+            Used for scripting, automation, backend logic, and building
+            server-side functionality.
+          </p>
+        </div> <br><br>
+
+        <!-- Web Development -->
+        <div class="glass skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h2>Web Development</h2>
+          <p class="skill-list">HTML • CSS • JavaScript</p>
+          <p class="skill-desc">
+            Focused on building responsive, clean, and user-friendly
+            web interfaces.
+          </p>
+        </div> <br><br>
+
+        <!-- Databases -->
+        <div class="glass skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h2>Databases</h2>
+          <p class="skill-list">MySQL</p>
+          <p class="skill-desc">
+            Experience working with relational databases for storing,
+            retrieving, and managing application data.
+          </p>
+        </div> <br><br>
+
+        <!-- Systems & Security -->
+        <div class="glass skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h2>Systems & Security</h2>
+          <p class="skill-list">
+            Linux Commands • Network Security (Basics) • Ethical Hacking
+          </p>
+          <p class="skill-desc">
+            Familiar with system-level operations and foundational
+            security concepts.
+          </p>
+        </div><br><br>
+
+      </div>
+
+      <!-- Currently Learning -->
+      <div class="glass learning-card">
+        <div class="skill-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <h2>Currently Learning</h2>
+        <p>
+          Spring Boot (advanced concepts), cybersecurity fundamentals,
+          and improving backend architecture through hands-on projects.
+        </p>
+      </div>
+
     </section>
   </main>
 
 </body>
 </html>
-
