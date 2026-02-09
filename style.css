@@ -243,7 +243,7 @@ body {
 
 .about-photo img {
   width: 100%;
-  max-width: 220px;
+  max-width: 240px;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.1);
 }
@@ -320,7 +320,7 @@ body {
 
 .hero-photo img {
   width: 100%;
-  max-width: 170px;
+  max-width: 220px;
   border-radius: 14px;
   border: 1px solid rgba(255,255,255,0.1);
   opacity: 0.95;
@@ -453,3 +453,4 @@ body {
 }
 
 }
+
