@@ -451,6 +451,90 @@ body {
     height: 52px;
   }
 }
+/* ================================= */
+/* CLEAN EDUCATION TIMELINE (FINAL)  */
+/* ================================= */
+
+.education-section {
+  margin-top: 70px;
+}
+
+.edu-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #38bdf8;
+  position: relative;
+}
+
+.edu-title::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #38bdf8;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Timeline wrapper */
+.timeline {
+  position: relative;
+  padding-left: 60px;
+}
+
+/* Vertical Line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 30px;         /* center reference */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Each item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 55px;
+}
+
+/* Dot */
+.timeline-dot {
+  position: absolute;
+  left: -29px;         /* EXACT same as line */
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  background: #38bdf8;
+  border-radius: 50%;
+  border: 4px solid #0f172a;
+  transform: translateX(-50%);
+}
+
+/* Current education highlight */
+.timeline-item:first-child .timeline-dot {
+  background: #22c55e;
+}
+
+/* Date */
+.timeline-date {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+/* Title */
+.timeline-content h3 {
+  margin: 6px 0;
+  font-size: 1.2rem;
+}
+
+/* School name */
+.timeline-place {
+  font-style: italic;
+  color: #cbd5f5;
+  margin-bottom: 10px;
+}
 
 }
+
 
